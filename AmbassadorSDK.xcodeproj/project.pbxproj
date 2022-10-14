@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		94AB0EC2A5992C5CFF0F3EA7 /* Pods_AmbassadorSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63600FAF3250C1514F965252 /* Pods_AmbassadorSDK.framework */; };
+		CE8EF33128F3FB8D001C0D64 /* AmbassadorSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = CE8EF33028F3FB8D001C0D64 /* AmbassadorSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE8EF33B28F3FD35001C0D64 /* AmbassBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8EF33A28F3FD35001C0D64 /* AmbassBase.swift */; };
+		CE8EF33D28F3FDF3001C0D64 /* AmbassadorImp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8EF33C28F3FDF3001C0D64 /* AmbassadorImp.swift */; };
+		CEC382A028F939C800B40E98 /* APIManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC3829F28F939C800B40E98 /* APIManger.swift */; };
+		CEC382A428F93A0E00B40E98 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC382A328F93A0E00B40E98 /* Extensions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2F683000F4C183F81E78D03A /* Pods-AmbassadorSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AmbassadorSDK.release.xcconfig"; path = "Target Support Files/Pods-AmbassadorSDK/Pods-AmbassadorSDK.release.xcconfig"; sourceTree = "<group>"; };
+		63600FAF3250C1514F965252 /* Pods_AmbassadorSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AmbassadorSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0E7B3A59336B2FAB60B5C65 /* Pods-AmbassadorSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AmbassadorSDK.debug.xcconfig"; path = "Target Support Files/Pods-AmbassadorSDK/Pods-AmbassadorSDK.debug.xcconfig"; sourceTree = "<group>"; };
+		CE8EF32D28F3FB8D001C0D64 /* AmbassadorSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AmbassadorSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE8EF33028F3FB8D001C0D64 /* AmbassadorSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AmbassadorSDK.h; sourceTree = "<group>"; };
+		CE8EF33828F3FBCA001C0D64 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		CE8EF33A28F3FD35001C0D64 /* AmbassBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmbassBase.swift; sourceTree = "<group>"; };
+		CE8EF33C28F3FDF3001C0D64 /* AmbassadorImp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmbassadorImp.swift; sourceTree = "<group>"; };
+		CEC3829F28F939C800B40E98 /* APIManger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManger.swift; sourceTree = "<group>"; };
+		CEC382A328F93A0E00B40E98 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE8EF32A28F3FB8D001C0D64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94AB0EC2A5992C5CFF0F3EA7 /* Pods_AmbassadorSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		44DD95614EA36951A0FD53B1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B0E7B3A59336B2FAB60B5C65 /* Pods-AmbassadorSDK.debug.xcconfig */,
+				2F683000F4C183F81E78D03A /* Pods-AmbassadorSDK.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CE8EF32328F3FB8D001C0D64 = {
+			isa = PBXGroup;
+			children = (
+				CE8EF32F28F3FB8D001C0D64 /* AmbassadorSDK */,
+				CE8EF32E28F3FB8D001C0D64 /* Products */,
+				CE8EF33728F3FBCA001C0D64 /* Frameworks */,
+				44DD95614EA36951A0FD53B1 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		CE8EF32E28F3FB8D001C0D64 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE8EF32D28F3FB8D001C0D64 /* AmbassadorSDK.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE8EF32F28F3FB8D001C0D64 /* AmbassadorSDK */ = {
+			isa = PBXGroup;
+			children = (
+				CE8EF33028F3FB8D001C0D64 /* AmbassadorSDK.h */,
+				CE8EF33A28F3FD35001C0D64 /* AmbassBase.swift */,
+				CE8EF33C28F3FDF3001C0D64 /* AmbassadorImp.swift */,
+				CEC3829E28F9374800B40E98 /* AmbassadorConsumerApi */,
+			);
+			path = AmbassadorSDK;
+			sourceTree = "<group>";
+		};
+		CE8EF33728F3FBCA001C0D64 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE8EF33828F3FBCA001C0D64 /* Accelerate.framework */,
+				63600FAF3250C1514F965252 /* Pods_AmbassadorSDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CEC3829E28F9374800B40E98 /* AmbassadorConsumerApi */ = {
+			isa = PBXGroup;
+			children = (
+				CEC3829F28F939C800B40E98 /* APIManger.swift */,
+				CEC382A328F93A0E00B40E98 /* Extensions.swift */,
+			);
+			path = AmbassadorConsumerApi;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		CE8EF32828F3FB8D001C0D64 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE8EF33128F3FB8D001C0D64 /* AmbassadorSDK.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		CE8EF32C28F3FB8D001C0D64 /* AmbassadorSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE8EF33428F3FB8D001C0D64 /* Build configuration list for PBXNativeTarget "AmbassadorSDK" */;
+			buildPhases = (
+				82F5098FF0A8BD9F831CEBEA /* [CP] Check Pods Manifest.lock */,
+				CE8EF32828F3FB8D001C0D64 /* Headers */,
+				CE8EF32928F3FB8D001C0D64 /* Sources */,
+				CE8EF32A28F3FB8D001C0D64 /* Frameworks */,
+				CE8EF32B28F3FB8D001C0D64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AmbassadorSDK;
+			productName = AmbassadorSDK;
+			productReference = CE8EF32D28F3FB8D001C0D64 /* AmbassadorSDK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE8EF32428F3FB8D001C0D64 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					CE8EF32C28F3FB8D001C0D64 = {
+						CreatedOnToolsVersion = 13.3.1;
+						LastSwiftMigration = 1330;
+					};
+				};
+			};
+			buildConfigurationList = CE8EF32728F3FB8D001C0D64 /* Build configuration list for PBXProject "AmbassadorSDK" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE8EF32328F3FB8D001C0D64;
+			productRefGroup = CE8EF32E28F3FB8D001C0D64 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE8EF32C28F3FB8D001C0D64 /* AmbassadorSDK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE8EF32B28F3FB8D001C0D64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		82F5098FF0A8BD9F831CEBEA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AmbassadorSDK-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE8EF32928F3FB8D001C0D64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEC382A428F93A0E00B40E98 /* Extensions.swift in Sources */,
+				CE8EF33B28F3FD35001C0D64 /* AmbassBase.swift in Sources */,
+				CE8EF33D28F3FDF3001C0D64 /* AmbassadorImp.swift in Sources */,
+				CEC382A028F939C800B40E98 /* APIManger.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CE8EF33228F3FB8D001C0D64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CE8EF33328F3FB8D001C0D64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CE8EF33528F3FB8D001C0D64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0E7B3A59336B2FAB60B5C65 /* Pods-AmbassadorSDK.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AmbassadorSDK;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE8EF33628F3FB8D001C0D64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F683000F4C183F81E78D03A /* Pods-AmbassadorSDK.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AmbassadorSDK;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE8EF32728F3FB8D001C0D64 /* Build configuration list for PBXProject "AmbassadorSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE8EF33228F3FB8D001C0D64 /* Debug */,
+				CE8EF33328F3FB8D001C0D64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE8EF33428F3FB8D001C0D64 /* Build configuration list for PBXNativeTarget "AmbassadorSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE8EF33528F3FB8D001C0D64 /* Debug */,
+				CE8EF33628F3FB8D001C0D64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE8EF32428F3FB8D001C0D64 /* Project object */;
+}
